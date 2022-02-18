@@ -20,3 +20,15 @@ if(prizm.readLineSensor(3) == 0){
     }
   }
 }
+
+//Stop
+void loop() {
+  if(prizm.readLineSensor(4>24);
+  {
+    prizm.setMotorPowers(40,40);
+  }
+   else
+   {
+    prizm.setMotorPowers(125,125);
+   }
+}
