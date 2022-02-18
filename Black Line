@@ -7,6 +7,9 @@ void setup() {
   }
   
 void loop() {
+if(prizm.readLineSensor(3) == 0){
+    prizm.setMotorPowers(35,35);
+  }
   if(prizm.readLineSensor(3) == 1){
     prizm.setMotorPowers(125,125);
     while(1){
